@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="intro">
+                <h1>Hi, I'm Alexa</h1>
+                <p>Frontend Developer</p>
+                <p>High level experience in web design and development knowledge, producing quality work.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Alexa">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Web developer with extensive knowledge and years of experience, working in web technologies and UI/UX design, delivering quality work.</p>
+            <p>08+ Years experience | 20+ Completed projects | 5+ Companies worked</p>
+            <a href="resume.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Frontend Developer</h3>
+                    <ul>
+                        <li>HTML - 90%</li>
+                        <li>CSS - 80%</li>
+                        <li>JavaScript - 60%</li>
+                        <li>React - 85%</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Designer</h3>
+                    <ul>
+                        <li>Photoshop - 70%</li>
+                        <li>Illustrator - 60%</li>
+                        <li>Figma - 85%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-list">
+                <div class="service">
+                    <h3>UI/UX Design</h3>
+                    <p>Providing high quality design for web and mobile.</p>
+                </div>
+                <div class="service">
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive and dynamic websites.</p>
+                </div>
+                <div class="service">
+                    <h3>Branding</h3>
+                    <p>Creating strong brand identities for businesses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Project 1</p>
+                </div>
+                <div class="item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>Project 2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Alexa is a fantastic developer!" - Client 1</p>
+            </div>
+            <div class="testimonial">
+                <p>"Great to work with!" - Client 2</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alexa's Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
